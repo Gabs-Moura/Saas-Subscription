@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+:root{
+    --cor_primaria: #161c2d;
+    --cor_secundaria: #473bf0;
+}
+
+*{
+    font-family: 'Gilroy-bold', sans-serif;
+    list-style-type: none;
+}
+
+h1{
+    width: 154px;
+    font-size: 24px;
+    height: 58px;
+    align-items: center;
+}
+
+h3{
+    width: 400px;
+    font-size: 19px;
+    height: 32px;
+    align-items: center;
+    opacity: 70%;
+    font-family: 'Gilroy-Regular', sans-serif;
+
+}
+header{
+    width: 1519px;
+    height: 46px;
+    top: 24px;
+    left: 43px;
+}
+
+ul{
+    display: flex;
+    top: 24px;
+    left: 43px;
+    margin-top: 30px;
+}
+.logo{
+    margin-right: 260px;
+    font-size: 24px;
+}
+.subtitulo{
+    width: 100px;
+    height: 26px;
+    top: 11px;
+    text-align: center;
+    margin-top: 15px;
+ 
+}
+
+.botao-gratis{
+    height: 45px;
+    margin-left: 180px;
+}
+
+button{
+    background:var(--cor_secundaria);
+    color:#fff;
+    border-radius: 10px;
+   
+    height:59px;
+    font-size: 17px;
+    width: 194px;
+    top: 132px;   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container-texto{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
